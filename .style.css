@@ -1,0 +1,411 @@
+.container {/*display: grid;*/
+    max-width: 1920px;
+    width: 100%;}
+
+    body{margin: 0;}
+    
+    header{    background-image: url('https://picua.org/images/2021/03/09/d04dad9929b94ed6ef6456ded8b4a4c5.jpg');
+        background-repeat: no-repeat;
+        
+        display: grid;
+        grid-template-columns: 51% 4% 5% 6% 6% 5% 4% 4% 12%;
+        grid-template-rows:10% 15% 25% 12% 12% 10% 6%;
+        height: 950px;
+        color: white;
+        padding-top: 2%;
+        align-items: center;
+    }
+    
+    .heading {grid-column: 1/5;
+    margin-left: 29%;}
+
+    .heading_text{grid-row: 4;
+        grid-column: 1/1;
+        margin-left: 37%;
+       line-height: 3;
+       margin-top: 1%;
+    font-size: 12px;}
+
+    .header_hover:hover {color: #d60c1a;}
+
+    h1{font-size: 98px;
+        line-height: 1.2;
+        font-weight: 600;}
+    
+    .osvald{font-family: 'Oswald', sans-serif;
+    font-size:17px;
+text-transform: uppercase;}
+    
+    .poppins{font-family: 'Poppins', sans-serif;}
+
+    .red-button{background-color: #d60c1a;
+        text-align: center;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        place-self: center;
+        padding: 23px 0;
+        width: 270px;
+        font-size: 17px;
+    justify-self: auto;
+border: none;
+outline: none;}
+
+    .pages {    grid-row: 7;
+        grid-column: 1/11;
+        text-align: center;
+        font-size: 14px;
+    color: white;
+font-weight: 600;
+letter-spacing: 2px;}
+
+.grey_block{background-image: url('https://picua.org/images/2021/03/10/b0ba38702d81a1bac2bc43801576a885.jpg');
+    max-width: 1960px;
+    width: 100%;
+display: grid;
+grid-template-columns: 19% 22% 22% 22% 15%;}
+
+
+    .type {display: inline-block;
+    margin: 1%x;
+margin-top: -18%;
+background-color: white;
+height:470px ;
+width: 90%;
+box-shadow: 0px 0px 15px  rgba(0, 0, 0, 0.453);}
+
+.type_img img {width: 100%;}
+
+.type_name {font-weight: 600;}
+
+.type_descr {font-size: 13px;
+line-height: 2;}
+
+.type_text {padding: 20px;
+padding-top: 5px;}
+
+.type_line{width: 35px;
+    margin: 10px 0;
+border:1px solid #d60c1a;}
+
+.services{grid-column: 2/5;
+    margin: 5% 5% 5% 0%}
+
+.about_grid {display: grid;
+grid-template-columns: 14% 40% 21% 23%;
+line-height: 2;
+margin-bottom: 5%;
+height: 610px;}
+
+.goal {font-size: 24px;
+text-align: center;
+width: 62%;
+margin: 4% auto;
+line-height: 2;}
+
+ .about_us h2 {margin: 7% 14%;
+font-size: 30px;}
+
+.us_pic {margin-top:70px; background-repeat: no-repeat; margin:70px 5px 0 5px}
+.us_pic1{background-image: url('https://picua.org/images/2021/03/10/534eeecc1390739be5271f6fd67604e6.png');}
+.us_pic2{background-image: url('https://picua.org/images/2021/03/10/91081f3ed7ea656e201c5dc46db0b4cc.png');}
+
+.about_choice{border-bottom: 1px solid #dee3e7;
+width: 71%;
+padding-bottom: 20px;
+margin-bottom: 5%;
+margin-left: 16%;}
+
+.about_text{margin-left: 14%;
+font-size: 14px;
+width: 71%;
+line-height: 2.5;
+}
+
+.choice{text-transform: uppercase;
+font-weight:600 ;
+color: #8e979c;
+margin-right: 14%;}
+
+.choice:last-child{margin-right: 0;}
+
+.hide {display: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background-color: #d60c1a;
+    margin-top: 50px;
+    margin-left: -60px;
+    position: absolute;}
+
+.choice:hover> .hide{display: inline-block;}
+
+.choice:hover{color: #d60c1a;}
+
+.film{color: white;}
+
+.film_back {background-image: url('https://picua.org/images/2021/03/10/f65a7bf712f5e8bd85509e1e2d7dbc65.jpg');
+    background-repeat: no-repeat;
+width: 100%;
+height: 600px;
+filter: brightness(.2);
+position: absolute;
+background-position: 2px -213px;
+z-index: -1;}
+
+.film_heading {color: white;
+text-align: center;
+font-size: 18px;
+line-height: 2.5;
+margin-top: 4%;
+padding-top: 3%;
+font-family: 'Poppins', sans-serif;
+font-weight: 200;}
+
+.film_name {font-weight: 500;;
+font-size: 31px;}
+
+.film_pic{margin: 0 auto;
+width: 60%;
+margin-bottom: 1%;}
+
+.film_pic img {width: 100%;
+    margin-top: 25px;
+    box-shadow: 0px 0px 25px  rgba(0, 0, 0, 0.453); }
+
+.film_pic:hover {filter:contrast(1.5);}
+
+    .choose{display: grid;
+        grid-template-columns: 23% 29% 13% 18% 17%;
+grid-template-rows: 25% 50% 25%;
+padding: 5%;}
+
+    .choose_pic {grid-row: 1/4; margin: 5px ; background-repeat: no-repeat; max-width: 370px;}
+
+    .choose_pic1{background-image: url('https://picua.org/images/2021/03/10/4a45cea519ef9d5c3a274406ea8a5857.png');}
+    .choose_pic2{background-image: url('https://picua.org/images/2021/03/10/8cdd8d124f84884b3ec0bc0572dda776.png');}
+
+    .reasons {grid-column: 3/5;
+        grid-row: 1;
+    font-family: 'Poppins', sans-serif;
+font-size: 14px;}
+
+    .reasons h2 {font-size: 30px;
+        margin-top: 0;}
+
+    .reasons_ul {grid-row: 2;
+        grid-column: 3/5;
+        font-family: 'Poppins', sans-serif;
+        columns: 2;
+        margin-top: 15%;
+        line-height: 3;
+    font-weight: 500;
+display: grid;
+grid-template-columns: 1fr 1fr;}
+
+    .reasons hr {   
+        width: 100px;
+        background-color: white;
+        float: left;
+        border: none;
+         border-top: 1px solid #d60c1a;}
+    .reasons_ul ul {margin: 0;
+    padding: 0;
+font-size: 15px;}
+
+        .reasons_ul li::before {content: '>';
+            padding-right: 10px;
+        color: #d60c1a;}
+
+    .reasons_button {grid-row: 3; color: white;}
+
+    h2 {font-family: 'Oswald', sans-serif; text-transform: uppercase;}
+
+    footer {
+        background-color: #eeeeee;
+    max-width: 1920px;
+width: 100%;}
+
+    .footer_grey{ display: grid;
+    grid-template-columns: 1fr 1fr;
+width: 70%;
+margin: 0 auto;
+padding-bottom: 32px;
+}
+
+.faqs_li{border-top: #8e979c solid 1px;
+width: 65%;
+margin: 3%;
+padding-top: 3%;
+font-weight: 600;
+font-size: 14px;}
+
+.faqs_ul {margin-left: 5%;}
+
+.faqs_li:first-child{border-top: none;}
+
+    .faqs_li, li {list-style-type: none;}
+
+   
+
+    .faqs_li li:hover, .company_ul li:hover, .contacts a:hover, .latest-posts p:hover {color: #d60c1a;}
+
+    .faqs p {color: #8e979c;
+    width: 80%;
+margin-left: 10%;}
+
+    .faqs_li::before{content: "+"; 
+        padding-right: 10px;
+    font-size: 22px;
+font-weight: 300;}
+
+.faqs_li:first-child::before {content: "-"; 
+    padding-right: 10px;
+font-size: 22px;
+font-weight: 300;}
+
+    .name {color: #d60c1a; 
+    text-transform: uppercase;
+font-weight: 600;
+font-size: 14px;}
+
+section {    margin: 0 0 5% 17%;
+    width: 66%;}
+
+section img {   
+    float: left;
+    margin-right: 5%;
+margin-bottom: 1%;}
+
+    .position{margin: 0;}
+
+    .opinion {margin-top: 12%;
+        font-size: 14px;
+        font-weight: 300;}
+
+    footer h2{
+        font-size: 32px;
+        margin: 16% 12% 9% 13%;}
+
+.position, .date, .contacts, .copyright {text-transform: none; 
+    color: #8e979c; 
+    font-weight: 300;}
+
+.wordpress-theme {background-color: #d60c1a; 
+    color: white;
+padding-left: 25%;
+height: 158px;}
+
+.purchase_button{background-color: #242633;
+    color: white;
+    width: 260px;
+    height: 60px;
+    text-transform: uppercase;
+    margin: 3.5% 33% 2% 4%;
+    float: right;
+    outline: none;
+    border: none;}
+
+     h3 {text-transform: uppercase; 
+        font-size: 33px;
+        padding-top: 2%; 
+        display: inline-block; 
+        margin-bottom: 1%;
+    }
+
+    nav{width: 100%;}
+
+    .nav {display: grid;
+        grid-template-columns: 19% 21% 21% 20% 19%;
+        grid-template-rows: 74% 14% 12%;
+    background-color: #242633;
+color: white;
+padding-top: 2%;
+padding-bottom: 5%;
+margin: 0;
+}
+
+nav a:hover, nav li:hover, nav p:hover, button:hover, .header_hover:hover, .services span:hover, .about_choice span:hover, .about_us strong:hover, .film_pic:hover, .faqs_li:hover {cursor: pointer;}
+
+.logo{text-transform: none;
+font-weight: 200;
+margin-top: 8%;
+width: 70%;
+font-size: 14px;}
+
+.logo img {
+padding: 1%;
+margin: 4px;}
+
+
+.icon img:hover {filter: hue-rotate(162deg) brightness(1.5) contrast(1.5) saturate(6.5);
+    padding: 1px;
+border-radius: 50px;}
+
+
+
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: #d60c1a solid 3px;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-top:25px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+    .company ul {columns: 2; padding: 0; line-height: 2.3;}
+
+    .latest-posts{text-transform: capitalize;
+        width: 100%;
+        font-size: 14px;
+        line-height: 1.8;}
+
+    .contacts {grid-column: 2/5;
+    text-align: center;
+    background-color: #242633;
+    height: 120px;
+    align-self: center;
+    border-top: 1px solid #3e404f;
+    grid-template-columns: 15% 30% 20% 20% 15%;
+    display: grid;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.contacts a:link, .contacts a:active, .contacts a:visited {text-decoration: none; color: #8e979c;}
+
+.contacts a {padding-bottom: 25px;}
+
+.contacts img {vertical-align: top;
+margin-right: 10px;}
+
+    .copyright{grid-column: 1/6;
+        text-align: center;
+        text-transform: capitalize;
+        background-color: #191b28;
+        height: 25px;
+        display: inline-block;
+     
+        padding: 20px 0;
+}
+
+
+@media screen and (min-width:1150px) and (max-width:1650px){
+  .purchase_button{width:17%; margin: 4.5% 20% 2% 2%;}
+  h3{font-size:30px}
+  .wordpress-there{padding-left:13%}
+  .reasons, .reasons_ul, .reasons_ul ul {margin-left:3%; font-size:12px; line-height:2; }
+  .reasons_ul {padding-top:20px}
+  .reasons_button{width: 200px; margin: 10px} 
+  .reasons hr {padding-bottom:40px;}
+  .logo{width:60%}
+  .company, .latest-posts, .logo{font-size:12px;}
+  .contacts{grid-template-columns: 9% 36% 23% 23% 9%; font-size:12px;}
+  h4{margin-top:45px}
+  .logo_footer  {width:90%; margin:0; padding:0;}
+  .icon{width:20%;}
+}
